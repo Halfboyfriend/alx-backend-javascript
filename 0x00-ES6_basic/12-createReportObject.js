@@ -1,6 +1,6 @@
 export default function createReportObject(employeesList) {
-    const employList = {
-        [employeesList]: {},
-    }
-    return employList;
+  const employList = {
+    [employeesList]: {},
+  };
+  return employList;
 }
