@@ -1,9 +1,9 @@
 /*eslint-disable */
 import Building from './5-building';
 
-export default class SkyHighBuilding {
+export default class SkyHighBuilding extends Building{
     constructor (sqft, floors) {
-        this._sqft = new Building(sqft);
+        super(sqft);
         this._floors = floors;
     }
 
