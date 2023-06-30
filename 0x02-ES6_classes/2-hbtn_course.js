@@ -1,5 +1,5 @@
 /*eslint-disable */
-class HolbertonCourse {
+export default class HolbertonCourse {
     constructor (name, length, students) {
         if (typeof(name) !== 'string'){
             throw new Error('Name must be a string');
@@ -45,8 +45,3 @@ class HolbertonCourse {
         this._students = students;
       }
 }
-
-const c1 = new HolbertonCourse("ES6", 5, ["Bob", "Jane"])
-console.log(c1.name);
-c1.name = "Python 101";
-console.log(c1);
