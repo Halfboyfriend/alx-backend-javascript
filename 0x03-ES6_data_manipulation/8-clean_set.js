@@ -1,7 +1,7 @@
 /*eslint-disable */
 export default function cleanSet(set, startString) {
   if (startString === '') {
-    return '';
+    return;
   }  
   const newString = Array.from(set)
     .filter((val) => val.startsWith(startString))
