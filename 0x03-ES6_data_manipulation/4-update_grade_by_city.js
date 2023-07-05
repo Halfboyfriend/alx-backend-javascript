@@ -1,5 +1,5 @@
 /*eslint-disable */
-function updateStudentGradeByCity (students, city, newGrades) {
+export default function updateStudentGradeByCity (students, city, newGrades) {
     if (!Array.isArray(students)){
         return [];
     }
