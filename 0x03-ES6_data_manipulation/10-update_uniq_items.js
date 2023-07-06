@@ -1,5 +1,5 @@
 /*eslint-disable */
-function updateUniqueItems (argMap) {
+export default function updateUniqueItems (argMap) {
    if (argMap instanceof Map){
     for (let [k,v] of argMap){
         if (v===1) {
