@@ -1,5 +1,10 @@
-function displayMessage(msg) {
- //  create a function named displayMessage that
- // prints in STDOUT the strin
- console.log(msg)
-}
+/**
+ * 
+ * @param {String} msg 
+ */
+
+const displayMessage = (msg) => {
+    console.log(msg);
+  };
+  
+module.exports = displayMessage;
