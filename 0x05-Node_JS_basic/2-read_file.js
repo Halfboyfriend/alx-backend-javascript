@@ -2,7 +2,7 @@ const fs = require('fs');
 
 function countStudents(path) {
   try {
-    // Read the database file synchronously
+    // Read the database file 
     const databaseContent = fs.readFileSync(path, 'utf-8');
     
     // Split the content into lines and remove any empty lines
