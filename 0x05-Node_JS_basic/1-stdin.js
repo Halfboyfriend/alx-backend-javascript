@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 process.stdout.write('Welcome to Holberton School, what is your name? ');
 
 process.stdin.on('readable', () => {
@@ -9,5 +11,5 @@ process.stdin.on('readable', () => {
 });
 
 process.stdin.on('end', () => {
-    process.stdout.write(`Thats the end. Thanks`)
+    process.stdout.write(`Thats the end. Thanks`);
 })
