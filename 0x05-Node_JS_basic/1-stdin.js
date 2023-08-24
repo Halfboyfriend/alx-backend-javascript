@@ -1,15 +1,13 @@
-/* eslint-disable */
-
-process.stdout.write('Welcome to Holberton School, what is your name? ');
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
 process.stdin.on('readable', () => {
-    const input = process.stdin.read();
+  const chunk = process.stdin.read();
 
-    if(input) {
-        process.stdout.write(`Your name is ${input}`)
-    }
+  if (chunk) {
+    process.stdout.write(`Your name is: ${chunk}`);
+  }
 });
 
 process.stdin.on('end', () => {
-    process.stdout.write(`Thats the end. Thanks`);
-})
+  process.stdout.write('This important software is now closing\n');
+});
