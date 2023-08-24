@@ -3,6 +3,7 @@ const fs = require('fs');
  * 
  * @param {*} path 
  */
+
 function countStudents(dataPath) {
   if (!fs.existsSync(dataPath)){
     throw new Error('Cannot load the database');
