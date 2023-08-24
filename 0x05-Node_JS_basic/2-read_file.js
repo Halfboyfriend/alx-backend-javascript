@@ -1,5 +1,8 @@
 const fs = require('fs');
-
+/**
+ * 
+ * @param {*} path 
+ */
 function countStudents(path) {
   try {
     // Read the database file 
@@ -52,6 +55,5 @@ function countStudents(path) {
   }
 }
 
-// Example usage
-const databasePath = 'database.csv';
-countStudents(databasePath);
+
+module.exports = countStudents;
