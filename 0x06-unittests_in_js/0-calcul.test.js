@@ -1,8 +1,8 @@
 const assert = require('assert')
-const calcul = require('./0-calcul')
+const calculateNumber = require('./0-calcul')
 
-describe('Testing',() => {
+describe('Testing Calculations',() => {
     it('Calculates', () => {
-        assert.ok(calcul)
+        assert.strictEqual(calculateNumber(1, 2), 3);
     })
 })

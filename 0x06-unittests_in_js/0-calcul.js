@@ -1,4 +1,5 @@
-// Fucntion
-function calculateNumber (a,b) {
+const calculateNumber = (a, b) => {
     return a + b;
 }
+
+module.exports = calculateNumber;
